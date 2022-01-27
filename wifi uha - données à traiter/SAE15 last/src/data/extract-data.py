@@ -5,40 +5,52 @@ import os
 import argparse
 
 def ExtractFolderName (path):
-    return (path.split("/")[4])
+    return os.path.dirname(path)
 
 def ExtractFileName (path):
-    return (path.split("/")[5])
+    return os.path.basename(path)
 
 def ExtractPlace (folderName) :
-    return (path.split("/"))
+    return folderName.split('-')[1]
 
 def ExtractDate (folderName) :
-    #@TODO
+    date=folderName.split('-')[-1]
+    return date
 
 def ExtractIdExp (fileName) :
-    #@TODO
+    IdExp = fileName.split('-')[-1]
+    return IdExp
 
 def ExtractSsid (content) :
-    #@TODO
+    ssid=content.split("'")[0][:-1]
+    return ssid
 
 def ExtractMacAddr (content) :
-    #@TODO
+    MacAddr = content.split("'")[1]
+    return MacAddr
     
 def ExtractRssi (content) :
-    #@TODO
+    Rssi = content.split("'")[2]
+    return Rssi
 
 def ExtractInfo(path):
     folderName = ExtractFolderName(path) # Extract folder name
     fileName = ExtractFileName(path) # Extract filename
     result=""
-    descRd = None
     descRd = open(path, "r")
-    content = descRd.readlines()
-    for idx in content :
-      #@TODO
+    contents = descRd.readlines()
+    for content in contents:
+        ssid=ExtractSsid(content)
+        Addr=ExtractMacAddr(content)
+        rssi=ExtractRssi(content)
+        date=ExtractDate(folderName)
+        IdExp=ExtractDate(fileName)
+        place=ExtractPlace(folderName)
+        result+=','.join([place,date,IdExp,ssid,Addr,rssi])
     descRd.close()
     return(result)
+
+
 
 if __name__ == '__main__':
     # declare variables
@@ -52,7 +64,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Extract information from Wi-Fi logs')
     parser.add_argument("-input", help="path of the input file", required=True)
     args = parser.parse_args()
-    
     if os.path.isfile(args.input):
         result = ExtractInfo(args.input)
         descWr = open("../../data/processed/wifi.csv","w")
@@ -67,7 +78,8 @@ if __name__ == '__main__':
                 descWr.write("Building,Date,ExpId,SSID,Addr,RSSI\n")
                 descWr.close()
                 isFileCreated = True
-            result= ExtractInfo(args.input+fichier)
+
+            result= ExtractInfo(os.path.join(args.input,fichier))
             descWr = open("../../data/processed/wifi.csv","a")
             descWr.write(result)
             descWr.close()
