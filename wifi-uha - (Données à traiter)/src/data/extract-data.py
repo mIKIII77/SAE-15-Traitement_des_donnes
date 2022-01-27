@@ -11,7 +11,7 @@ def ExtractFileName (path):
     return (path.split("/")[5])
 
 def ExtractPlace (folderName) :
-    #@TODO
+    return (path.split("/"))
 
 def ExtractDate (folderName) :
     #@TODO
