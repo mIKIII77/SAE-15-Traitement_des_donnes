@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6b8c25e-d9d0-46f3-ac41-461bcf23c53f" name="Changes" comment="" />
+    <list default="true" id="b6b8c25e-d9d0-46f3-ac41-461bcf23c53f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/others/scan_wifi-premier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/others/scan_wifi-premier.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/others/scan_wifi-rdc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/others/scan_wifi-rdc.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi-premier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi-premier.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi-rdc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi-rdc.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/data/extract-data.py" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/data/extract-data.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +63,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extract-data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="extract-data (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SAE-15-Traitement_des_donnes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,12 +71,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wifi-uha - (Données à traiter)/src/data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wifi-uha - (Données à traiter)/src/data/extract-data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/data/extract-data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,9 +155,9 @@
       <list>
         <item itemvalue="Python.merge_csv (1)" />
         <item itemvalue="Python.model" />
+        <item itemvalue="Python.extract-data (2)" />
         <item itemvalue="Python.extract-data (1)" />
         <item itemvalue="Python.merge_csv" />
-        <item itemvalue="Python.extract-data" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +176,10 @@
       <workItem from="1643271330410" duration="1132000" />
       <workItem from="1643273144612" duration="396000" />
       <workItem from="1643273616933" duration="5697000" />
+      <workItem from="1643287861116" duration="1901000" />
+      <workItem from="1643299416386" duration="238000" />
+      <workItem from="1643355519748" duration="1241000" />
+      <workItem from="1643357648588" duration="1683000" />
     </task>
     <servers />
   </component>
@@ -177,9 +189,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/merge_csv_py$extract_data.coverage" NAME="extract-data Coverage Results" MODIFIED="1643271591297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wifi-uha - (Données à traiter)/src/data" />
     <SUITE FILE_PATH="coverage/merge_csv_py$extract_data__1_.coverage" NAME="extract-data (1) Coverage Results" MODIFIED="1643274976669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wifi uha - données à traiter/SAE15/src/data" />
-    <SUITE FILE_PATH="coverage/merge_csv_py$merge_csv__1_.coverage" NAME="merge_csv (1) Coverage Results" MODIFIED="1643278842077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/data" />
+    <SUITE FILE_PATH="coverage/merge_csv_py$merge_csv__1_.coverage" NAME="merge_csv (1) Coverage Results" MODIFIED="1643358283580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/data" />
     <SUITE FILE_PATH="coverage/SAE_15_Traitement_des_donnes$extract_data.coverage" NAME="extract-data Coverage Results" MODIFIED="1643012387417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wifi-uha - (Données à traiter)/src/data" />
     <SUITE FILE_PATH="coverage/merge_csv_py$merge_csv.coverage" NAME="merge_csv Coverage Results" MODIFIED="1643273720190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SAE15/input/data/raw/scan_wifi-premier-02_06_2021" />
-    <SUITE FILE_PATH="coverage/merge_csv_py$model.coverage" NAME="model Coverage Results" MODIFIED="1643277793978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/model" />
+    <SUITE FILE_PATH="coverage/merge_csv_py$model.coverage" NAME="model Coverage Results" MODIFIED="1643358166566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/model" />
+    <SUITE FILE_PATH="coverage/merge_csv_py$extract_data__2_.coverage" NAME="extract-data (2) Coverage Results" MODIFIED="1643357731385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/data" />
   </component>
 </project>

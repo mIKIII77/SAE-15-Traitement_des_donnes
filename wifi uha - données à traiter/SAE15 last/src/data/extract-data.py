@@ -67,7 +67,7 @@ if __name__ == '__main__':
     if os.path.isfile(args.input):
         result = ExtractInfo(args.input)
         descWr = open("../../data/processed/wifi.csv","w")
-        descWr.write("Location,Date,ExpId,SSID,Addr,RSSI\n")
+        descWr.write("Location,Date,SSID,Addr,RSSI\n")
         descWr.write(result)
         descWr.close()
     elif os.path.isdir(args.input):
@@ -75,7 +75,7 @@ if __name__ == '__main__':
         for fichier in listFiles:
             if isFileCreated == False:
                 descWr = open("../../data/processed/wifi.csv","w")
-                descWr.write("Building,Date,ExpId,SSID,Addr,RSSI\n")
+                descWr.write("Building,Date,SSID,Addr,RSSI\n")
                 descWr.close()
                 isFileCreated = True
 
