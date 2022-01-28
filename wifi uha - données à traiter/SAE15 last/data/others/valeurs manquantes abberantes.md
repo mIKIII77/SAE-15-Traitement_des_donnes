@@ -1,5 +1,5 @@
-## Valeurs manquantes 
-# Une valeur manquante 
+# Valeurs manquantes 
+## Une valeur manquante 
 
-## Valeurs aberrantes
-# Deux valeurs aberrantes RSSI
+# Valeurs aberrantes
+## Deux valeurs aberrantes RSSI
