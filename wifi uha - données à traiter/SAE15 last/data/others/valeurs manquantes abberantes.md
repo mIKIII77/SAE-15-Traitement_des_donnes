@@ -1,5 +1,5 @@
 ## Valeurs manquantes 
-# Pour le réz-de-chaussée : 1 valeur RSSI manquante pour un pourcentage de 0.016%.
+# Une valeur manquante 
 
-# Pour le premier étage : 2 valeurs RSSI manquantes pour un pourcentage de 0.03%.
-
+## Valeurs aberrantes
+# Deux valeurs aberrantes RSSI

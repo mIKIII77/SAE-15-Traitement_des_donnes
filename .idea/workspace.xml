@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6b8c25e-d9d0-46f3-ac41-461bcf23c53f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/others/scan_wifi-premier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/others/scan_wifi-premier.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/others/scan_wifi-rdc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/others/scan_wifi-rdc.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi-premier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi-premier.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi-rdc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi-rdc.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/data/processed/scan_wifi.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/data/extract-data.py" beforeDir="false" afterPath="$PROJECT_DIR$/wifi uha - données à traiter/SAE15 last/src/data/extract-data.py" afterDir="false" />
-    </list>
+    <list default="true" id="b6b8c25e-d9d0-46f3-ac41-461bcf23c53f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +171,7 @@
       <workItem from="1643287861116" duration="1901000" />
       <workItem from="1643299416386" duration="238000" />
       <workItem from="1643355519748" duration="1241000" />
-      <workItem from="1643357648588" duration="1683000" />
+      <workItem from="1643357648588" duration="2388000" />
     </task>
     <servers />
   </component>
